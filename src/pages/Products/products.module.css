@@ -1,0 +1,109 @@
+
+   
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+    p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+  .productLayout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  /* .productContainer{
+    display: flex;
+  } */
+  .product{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px 20px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .productImage{
+    background-color: #f2ecee;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+  }
+  .productQuantityContainer {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: -15px;
+    top: 8px;
+}
+.productQuantity {
+  background-color: #2b8379;
+  background-color: #2b8379;
+  border-radius: 50%;
+  color: #fff;
+  display: grid;
+  font-size: 14px;
+  height: 23px;
+  place-items: center;
+  width: 23px;
+}
+  .productInfo{
+    padding-left: 25px;
+  }
+  .productCheckout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn {
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 40px;
+    border: 0;
+    transition: background-color 200ms, color 200ms;
+  }
+  .btnOutline{
+  color: #2b8379;
+  background-color: #7fd1c7;
+  border: #2b8379 2px solid;
+  box-shadow: 1px 1px 7px #c4c4c4;
+  padding: 8px 25px;
+  border-radius: 10px;
+
+  }
+  .btnOutline:hover {
+    color: #fff;
+    background-color: #19a596;
+    text-decoration: none;
+  }
+  .btnOutline:active {
+    color: #2b8379;
+    background-color: #7fd1c7;
+  }
+  .productDelete {
+    background-color: #fff;
+    border-color: #c43464;
+    border-color: #c43464;
+    color: #970e3d;
+    color: #970e3d;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+    
+    @media (max-width: 700px){
+        .productLayout{
+            flex-wrap: wrap;
+            }
+    }
+    
+    /* 02 28405208 */

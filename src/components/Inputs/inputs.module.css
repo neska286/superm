@@ -1,0 +1,38 @@
+.inputWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+input{
+    width: 230px;
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+}
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+button {
+    width: 477px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    border: transparent;
+}
+.memePhoto{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 100%; 
+}

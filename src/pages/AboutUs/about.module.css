@@ -1,0 +1,37 @@
+/* .aboutBg{
+    background-color: #f2ecee;
+    height: 100vh;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 0 20px;
+    } */
+    .aboutLayout{
+    display: flex;
+    padding-top: 40px;
+    gap: 10px;
+    }
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .rounded{
+        border-radius: 30px
+    }
+    
+    @media (max-width: 700px){
+        .aboutLayout{
+            flex-wrap: wrap;
+            }
+    }
+    
+
+  
+      
+    
